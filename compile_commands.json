@@ -1,0 +1,26 @@
+[
+    {
+        "command": "/home/fab/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o build/megaatmega1280/libe68/LiquidCrystal-for-AVR/LiquidCrystal.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega1280 -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -DPLATFORMIO=60111 -DARDUINO_AVR_MEGA -I.pio/libdeps/megaatmega1280/LiquidCrystal-for-AVR/src .pio/libdeps/megaatmega1280/LiquidCrystal-for-AVR/src/LiquidCrystal.c",
+        "directory": "/home/fab/Projects/ACT3",
+        "file": ".pio/libdeps/megaatmega1280/LiquidCrystal-for-AVR/src/LiquidCrystal.c",
+        "output": "build/megaatmega1280/libe68/LiquidCrystal-for-AVR/LiquidCrystal.o"
+    },
+    {
+        "command": "/home/fab/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o build/megaatmega1280/lib6c8/avr-uart/example.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega1280 -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -DPLATFORMIO=60111 -DARDUINO_AVR_MEGA -I.pio/libdeps/megaatmega1280/avr-uart .pio/libdeps/megaatmega1280/avr-uart/example.c",
+        "directory": "/home/fab/Projects/ACT3",
+        "file": ".pio/libdeps/megaatmega1280/avr-uart/example.c",
+        "output": "build/megaatmega1280/lib6c8/avr-uart/example.o"
+    },
+    {
+        "command": "/home/fab/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o build/megaatmega1280/lib6c8/avr-uart/uart.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega1280 -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -DPLATFORMIO=60111 -DARDUINO_AVR_MEGA -I.pio/libdeps/megaatmega1280/avr-uart .pio/libdeps/megaatmega1280/avr-uart/uart.c",
+        "directory": "/home/fab/Projects/ACT3",
+        "file": ".pio/libdeps/megaatmega1280/avr-uart/uart.c",
+        "output": "build/megaatmega1280/lib6c8/avr-uart/uart.o"
+    },
+    {
+        "command": "/home/fab/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o build/megaatmega1280/src/main.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega1280 -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -DPLATFORMIO=60111 -DARDUINO_AVR_MEGA -Iinclude -Isrc -I.pio/libdeps/megaatmega1280/avr-uart -I.pio/libdeps/megaatmega1280/LiquidCrystal-for-AVR/src src/main.c",
+        "directory": "/home/fab/Projects/ACT3",
+        "file": "src/main.c",
+        "output": "build/megaatmega1280/src/main.o"
+    }
+]
